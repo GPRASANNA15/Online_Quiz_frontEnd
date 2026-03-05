@@ -6,6 +6,7 @@ function Profile()
 {
     const [user,setUser]=useState({});
     const id=useSelector(state=>state.user.id);
+    console.log(id);
     const [update,setUpdate]=useState({
         name:"",
         email:"",

@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL="http://localhost:8080/users";
+const BASE_URL="https://onlinequiz-production-2d13.up.railway.app/users";
 const token=localStorage.getItem("token");
 export const createUser=async(userData)=>{
     return axios.post(`${BASE_URL}/add`,userData,{
@@ -8,7 +8,7 @@ export const createUser=async(userData)=>{
         }
     });
 };
-const API_URL="http://localhost:8080/admin";
+const API_URL="https://onlinequiz-production-2d13.up.railway.app/admin";
 export const adminUser=async(userData)=>{
     return axios.post(`${API_URL}/add`,userData,{
         headers:{

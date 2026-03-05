@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL="http://localhost:8080/question";
+const BASE_URL="https://onlinequiz-production-2d13.up.railway.app/question";
 const token=localStorage.getItem("token");
 export const createQuestion=async(data)=>
 {
