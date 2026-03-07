@@ -80,21 +80,6 @@ function Profile()
               />
             </div>
           </div>
-
-          <div className="mb-3 row">
-            <label className="col-sm-3 col-form-label fw-bold">
-              Password
-            </label>
-            <div className="col-sm-9">
-              <input
-                type="text"
-                className="form-control"
-                value={user.password}
-                readOnly
-              />
-
-            </div>
-          </div>
         </form>
       )}
     </div>
