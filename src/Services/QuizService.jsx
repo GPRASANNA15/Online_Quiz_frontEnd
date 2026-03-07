@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL="https://onlinequiz-production-2d13.up.railway.app/quiz";
+const BASE_URL="https://onlinequiz-production-ce55.up.railway.app/quiz";
 const token=localStorage.getItem("token");
 export const addQuiz=async(data)=>{
     return axios.post(`${BASE_URL}/add`,data,{
